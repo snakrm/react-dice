@@ -7,11 +7,12 @@ var score2 = 0;
 
 export function reset() {
   document.getElementById("btn1").disabled = false;
-  document.querySelector(".img1").setAttribute("/dice1.jpeg");
-  document.querySelector(".img2").setAttribute("/dice1.jpeg");
+  document.querySelector(".img1").setAttribute("src","/dice1.jpeg");
+  document.querySelector(".img2").setAttribute("src","/dice1.jpeg");
   document.getElementById("result").innerHTML = "Let's play";
   document.getElementById("score1").innerHTML = "score : 0";
-  document.getElementById("score2").innerHTML = "score : 0";
+  document.getElementById("score2").innerHTML = "score : 0";    
+
   score1 = 0;
   score2 = 0;
 }
